@@ -9,3 +9,4 @@ USİNG
 POLYMORHİSM
 
 gevşek bağlantı sıkı bağlantı
+sefa ibnesi
