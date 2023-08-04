@@ -1,0 +1,11 @@
+﻿override tostring ()
+const
+
+C:\Users\halkbank\Desktop\FKARTAL\Inheritiance-Project\Inheritiance-Project\Inheritiance-Project.csproj
+
+INTERFACE ==> ŞABLON
+
+USİNG
+POLYMORHİSM
+
+gevşek bağlantı sıkı bağlantı
