@@ -14,7 +14,7 @@ internal class Program
 
         utu1.BilgiVer();
 
-
+        // sefaaaaaa
 
     }
 }
