@@ -6,16 +6,22 @@ public class Program
     private static void Main(string[] args)
     {
 
+        Ogrenci ogrenci = new Ogrenci();
+        ogrenci.Ad = "Furkan Kartal";
+        ogrenci.Ders = "Matematik";
+        Ogretmen ogretmen = new Ogretmen();
+        ogretmen.Ad = "Erdinç Marquez";
+        ogretmen.Brans = "Matematik";
 
         Ders ders = new Ders();
         ders.DersIsmi = "Matematik";
-        Ogretmen ogretmen= new Ogretmen();
-        ogretmen.Ad = "Erdinç Marquez";
-        ogretmen.Brans = "Matematik";
-        ders.Ogretmen = ogretmen;
-       
+        ders.Ogretmen = "Erdinç Marquez";
 
-        
+
+        ders.DersBasla();
+
+
+
 
     }  
 }

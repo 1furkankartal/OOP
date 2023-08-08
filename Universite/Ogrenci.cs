@@ -9,17 +9,18 @@ namespace Universite
     public class Ogrenci:Person
     {
         public int OkulNumarasi { get; set; }
+        public string Ders { get; set; }
 
-        public void DersAl(Ogretmen ogretmen)
-        {
-            Console.WriteLine($"Öğrenci {ogretmen.Brans} dersi alıyor ");
-        }
+        //public void DersAl(Ogretmen ogretmen)
+        //{
+        //    Console.WriteLine($"Öğrenci {ogretmen.Brans} dersi alıyor ");
+        //}
 
-        public void PuanVer(Ders ders)
+        public int PuanVer()
         {
-            Console.WriteLine(this.Ad + " " + ders.DersIsmi + " dersine puan verebilirsiniz");
+            Console.WriteLine(ders.DersIsmi+" dersine puan verebilirsiniz.");
             int puan = int.Parse(Console.ReadLine());
-            ders.DersZorlukSeviyesi = puan;
+            return puan
         }
     }
 }

@@ -10,22 +10,6 @@ namespace Universite
     {
         public string Brans { get; set; }
         public bool MusaitMi { get; set; }
-
-        public Ogretmen() 
-        {
-
-        }
-        public void DersAnlat(Ders ders)
-        {
-            if (Brans == ders.DersIsmi)
-            {
-                 Console.WriteLine($"Öğretmen Dersi anlatıyor....");
-
-            }
-            else
-            {
-                Console.WriteLine("Branşı dışı olduğu için öğretmen dersi anlatamıyor");
-            }
-        }
+        
     }
 }
