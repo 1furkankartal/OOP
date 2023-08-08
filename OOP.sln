@@ -48,7 +48,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17-OOP-Delegate", "17-OOP-D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18-OOP-DelegateLAB", "18-OOP-DelegateLAB\18-OOP-DelegateLAB.csproj", "{1E6E227D-CBC2-4E46-AAF1-FAA893D26694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Universite", "Universite\Universite.csproj", "{30C95F5C-77BD-4092-8262-2BAC29D4BBF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Universite", "Universite\Universite.csproj", "{30C95F5C-77BD-4092-8262-2BAC29D4BBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-OOP-Event", "19-OOP-Event\19-OOP-Event.csproj", "{DA206212-70F8-4692-8184-AD5FD48EA5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event-Ornek", "Event-Ornek\Event-Ornek.csproj", "{1D0131E1-9CD8-43B8-BBCB-97AB3FC6B100}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +144,14 @@ Global
 		{30C95F5C-77BD-4092-8262-2BAC29D4BBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30C95F5C-77BD-4092-8262-2BAC29D4BBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30C95F5C-77BD-4092-8262-2BAC29D4BBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA206212-70F8-4692-8184-AD5FD48EA5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA206212-70F8-4692-8184-AD5FD48EA5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA206212-70F8-4692-8184-AD5FD48EA5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA206212-70F8-4692-8184-AD5FD48EA5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0131E1-9CD8-43B8-BBCB-97AB3FC6B100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0131E1-9CD8-43B8-BBCB-97AB3FC6B100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0131E1-9CD8-43B8-BBCB-97AB3FC6B100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0131E1-9CD8-43B8-BBCB-97AB3FC6B100}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

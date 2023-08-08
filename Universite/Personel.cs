@@ -8,7 +8,7 @@ namespace Universite
 {
     public class Personel:Person
     {
-        public DateTime İseGirisTarihi { get; set; }
+        public string İseGirisTarihi { get; set; }
         public int Maas { get; set; }
     }
 }

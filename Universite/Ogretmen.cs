@@ -9,6 +9,7 @@ namespace Universite
     public class Ogretmen:Personel
     {
         public string Brans { get; set; }
+        public bool MusaitMi { get; set; }
 
         public Ogretmen() 
         {
