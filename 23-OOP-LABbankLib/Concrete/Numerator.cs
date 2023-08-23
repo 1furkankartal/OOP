@@ -19,17 +19,20 @@ namespace _23_OOP_LABbankLib.Concrete
             switch (customerType)
             {
                 case CustomerType.VipCustomer:
+                    CustomerWaiting.waitingCustomerVIP.Add((CustomerVIP)customer);
                     return ++VipNumber;
                     break;
                 case CustomerType.StandartCustomer:
+                    CustomerWaiting.waitingCustomerStandart.Add((CustomerStandart)customer);
                     return ++StandartNumber;
                     break;
                 case CustomerType.DeskCustomer:
+                    CustomerWaiting.waitingCustomerDesk.Add((CustomerDesk)customer);
                     return ++DeskNumber;
                     break;
                 default:
-                    return 0;
-                    break;
+                    throw new Exception("Müşteri tipi ");
+                   
 
             }
         }

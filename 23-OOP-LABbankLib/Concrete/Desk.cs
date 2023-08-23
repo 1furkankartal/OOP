@@ -15,7 +15,7 @@ namespace _23_OOP_LABbankLib.Concrete
 
         public void DoAction()
         {
-            //Control...
+            Control.SendNumberToDesk();
         }
     }
 }

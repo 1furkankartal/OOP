@@ -21,31 +21,18 @@ internal class Program
         bank.StartWork();
 
         //Musteri Oluştur
-        Customer customer1 = new Customer("111", "fatih1", _23_OOP_LABbankLib.Enums.CustomerType.DeskCustomer);
-        CustomerWaiting.waitingCustomers.Add(customer1);
+        CustomerDesk customer1 = new CustomerDesk("111", "fatih1");
         customer1.GetNumber();
 
-        Customer customer2 = new Customer("112", "fatih1", _23_OOP_LABbankLib.Enums.CustomerType.DeskCustomer);
-        CustomerWaiting.waitingCustomers.Add(customer1);
+        CustomerDesk customer2 = new CustomerDesk("111", "fatih1");
         customer1.GetNumber();
 
-        Customer customer3 = new Customer("113", "fatih1", _23_OOP_LABbankLib.Enums.CustomerType.StandartCustomer);
-        CustomerWaiting.waitingCustomers.Add(customer1);
+        CustomerDesk customer3 = new CustomerDesk("111", "fatih1");
         customer1.GetNumber();
 
-        Customer customer4 = new Customer("114", "fatih1", _23_OOP_LABbankLib.Enums.CustomerType.StandartCustomer);
-        CustomerWaiting.waitingCustomers.Add(customer1);
-        customer1.GetNumber();
+        
 
-
-        Customer customer5 = new Customer("115", "fatih1", _23_OOP_LABbankLib.Enums.CustomerType.StandartCustomer);
-        CustomerWaiting.waitingCustomers.Add(customer1);
-        customer1.GetNumber();
-
-        Console.WriteLine("gLEN KİŞİLER:");
-        Console.WriteLine($"vıp: {Numerator.}")
-
-        desklist[0].DoAction();
+        
 
     }
 }
